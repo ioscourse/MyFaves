@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15A155172687A97300F1E553 /* zebra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15A155142687A97300F1E553 /* zebra.jpg */; };
+		15A155182687A97300F1E553 /* eagle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15A155152687A97300F1E553 /* eagle.jpg */; };
+		15A155192687A97300F1E553 /* cougar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15A155162687A97300F1E553 /* cougar.jpg */; };
 		15BE4CE226876FE500304077 /* elephant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15BE4CDF26876FE500304077 /* elephant.jpg */; };
 		15BE4CE326876FE500304077 /* lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15BE4CE026876FE500304077 /* lion.jpg */; };
 		15BE4CE426876FE500304077 /* tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15BE4CE126876FE500304077 /* tiger.jpg */; };
@@ -24,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15A155142687A97300F1E553 /* zebra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zebra.jpg; sourceTree = "<group>"; };
+		15A155152687A97300F1E553 /* eagle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eagle.jpg; sourceTree = "<group>"; };
+		15A155162687A97300F1E553 /* cougar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cougar.jpg; sourceTree = "<group>"; };
 		15BE4CDF26876FE500304077 /* elephant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elephant.jpg; sourceTree = "<group>"; };
 		15BE4CE026876FE500304077 /* lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lion.jpg; sourceTree = "<group>"; };
 		15BE4CE126876FE500304077 /* tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tiger.jpg; sourceTree = "<group>"; };
@@ -89,6 +95,9 @@
 		36F299402325497500B75CF5 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				15A155162687A97300F1E553 /* cougar.jpg */,
+				15A155152687A97300F1E553 /* eagle.jpg */,
+				15A155142687A97300F1E553 /* zebra.jpg */,
 				15BE4CDF26876FE500304077 /* elephant.jpg */,
 				15BE4CE026876FE500304077 /* lion.jpg */,
 				15BE4CE126876FE500304077 /* tiger.jpg */,
@@ -170,12 +179,15 @@
 				36F2994623254A3B00B75CF5 /* mall.jpg in Resources */,
 				15BE4CE326876FE500304077 /* lion.jpg in Resources */,
 				15BE4CE426876FE500304077 /* tiger.jpg in Resources */,
+				15A155182687A97300F1E553 /* eagle.jpg in Resources */,
 				15BE4CE226876FE500304077 /* elephant.jpg in Resources */,
 				36F2994523254A3B00B75CF5 /* bike.jpg in Resources */,
 				36F299362325418000B75CF5 /* Assets.xcassets in Resources */,
 				36F2994B23254E6200B75CF5 /* rvc.jpg in Resources */,
+				15A155192687A97300F1E553 /* cougar.jpg in Resources */,
 				36F2994423254A3B00B75CF5 /* googles.jpg in Resources */,
 				36F299342325417E00B75CF5 /* Main.storyboard in Resources */,
+				15A155172687A97300F1E553 /* zebra.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

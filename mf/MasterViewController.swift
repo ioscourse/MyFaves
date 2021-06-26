@@ -2,9 +2,9 @@
 //  MasterViewController.swift
 //  MyFaves2
 //
-//  Created by Charles Konkol on 9/11/17.
-//  Copyright © 2018 RockValleyCollege. All rights reserved.
-//  Updated 9/9/18
+//  Created by Charles Konkol on 6/26/21.
+//  Copyright © 2021 RockValleyCollege. All rights reserved.
+//  Updated 6/26/21
 
 import UIKit
 
@@ -35,14 +35,14 @@ class MasterViewController: UITableViewController {
         // 4) Add items to 2 arrays
         //Menus
         ListOfPhotos = [
-            UIImage(named: "elephant.jpg")!,
-            UIImage(named: "lion.jpg")!,
-            UIImage(named: "tiger.jpg")!,
+            UIImage(named: "cougar.jpg")!,
+            UIImage(named: "eagle.jpg")!,
+            UIImage(named: "zebra.jpg")!,
             UIImage(named: "rvc.jpg")!
         ]
         
-        ListOfFavs = ["Home","Elephant","Lion", "Tiger"]
-        FavDetails = ["https://www.rockvalleycollege.edu/","https://www.worldwildlife.org/species/elephant","https://www.krugerpark.co.za/africa_lion.html", "https://en.wikipedia.org/wiki/Tiger"]
+        ListOfFavs = ["Home","Cougar","Eagle", "Zebra"]
+        FavDetails = ["https://www.rockvalleycollege.edu/","https://en.wikipedia.org/wiki/Cougar","https://animals.sandiegozoo.org/animals/bald-eagle", "https://en.wikipedia.org/wiki/Zebra"]
         
         if let split = self.splitViewController {
             let controllers = split.viewControllers
